@@ -1,0 +1,73 @@
+@charset "UTF-8";
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+/*h1{
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 41px;
+    display: block;
+    margin-top: 90px;
+    margin-left: 16px; 
+}*/
+
+#img-logo{
+    display: block;
+    margin: 75px auto 0 auto;
+}
+p{
+    font-weight: bold;
+    font-size: 20;
+    font-style: normal;
+    line-height: 26px;
+    margin: 12px 16px 102px 16px;
+    color: #00000080;
+}
+input{
+    display: block;
+    background: #F2F2F7;
+    border-radius: 6px;
+    margin: 0 auto 0 auto;
+    width: 343px;
+    height: 48px;
+    border: none;
+    box-shadow: 0 0  10px #00000026;
+    padding: 14px;
+}
+#input-pass{
+    margin-top: 12px;
+}
+a{
+    text-decoration: none;
+}
+#link-forgot-pass{
+    display: block;
+    text-align: right;
+    margin: 25px 20px 30px 0px;
+    color: #007AFF;
+}
+button{
+    display: block;
+    width: 343px;
+    height: 48px;
+    background: #000000f0;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 17px;
+    margin: 0 auto 0 auto;
+}
+#link-singup{
+    display: block;
+    margin-top: 204px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.51);
+}
+span{
+    font-weight: bolder;
+    color: #007AFF;
+}
